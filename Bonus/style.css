@@ -1,0 +1,56 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BUTTONS E AREA TEXT */
+.inputs{
+    text-align: center;
+    padding: 3rem;
+}
+
+.inputs input{
+    border-radius: 25px;
+    border: 1px solid lightblue;
+    height: 40px;
+    width: 220px;
+}
+
+.inputs button{
+    border-radius: 25px;
+    border: 0;
+    height: 40px;
+    width: 70px;
+    background-color: lightblue;
+}
+
+/* CONTAINER */
+.todo-contain{
+    margin: 0 10rem;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: lightblue;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+    border-bottom: solid white 1px;
+}
+
+.todo:last-child{
+    border-bottom: 0;
+}
+
+.cross{
+    color: darkred;
+}
+
+.isDone{
+    text-decoration: line-through;
+}
