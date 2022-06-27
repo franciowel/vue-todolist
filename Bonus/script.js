@@ -47,6 +47,13 @@ var app = new Vue({
         // cancellare todolist
         removeTodo(index) {
             this.todos.splice(index, 1);
+        },
+        checkTodo(singleTodo) {
+            if(singleTodo.done === false) {
+                singleTodo.done = true
+            } else{
+                singleTodo.done = false
+            }
         }
     }
 })
